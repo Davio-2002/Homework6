@@ -19,8 +19,8 @@ public class Problem10 {
     }
 
     public static boolean checkIfTriangleIsValid( double firstSide, double secondSide, double thirdSide ) {
-        return (firstSide + secondSide > thirdSide ||
-                secondSide + thirdSide > firstSide ||
+        return (firstSide + secondSide > thirdSide &&
+                secondSide + thirdSide > firstSide &&
                 firstSide + thirdSide > secondSide);
     }
 
